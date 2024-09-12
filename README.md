@@ -34,7 +34,7 @@ It involves:
 1. Finding Ultimate Gain (Ku): Increase the proportional gain (Kp) until the system starts oscillating continuously.
 2. Measuring Oscillation Period (Tu): Determine the period of these oscillations.
 3. Calculating PID Parameters:
-  -Proportional Gain (Kp): 
+   1. Proportional Gain (Kp): 
 𝐾
 𝑝
 =
@@ -43,5 +43,33 @@ It involves:
 𝐾
 𝑢
 Kp=0.6×Ku
+  2. Integral Gain (Ki): 
+𝐾
+𝑖
+=
+2
+×
+𝐾
+𝑝
+𝑇
+𝑢
+Ki= 
+Tu
+2×Kp
+​  3. Derivative Gain (Kd): 
+𝐾
+𝑑
+=
+𝐾
+𝑝
+×
+𝑇
+𝑢
+8
+Kd= 
+8
+Kp×Tu
+​
+
 
 
