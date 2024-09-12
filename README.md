@@ -19,14 +19,14 @@ Components:
 Circuit Diagram:
 
 Code Explanation:
-1. setup(): Initializes pins, sets up motor control, calibrates sensors, and performs initial PID tuning.
-2. loop(): Continuously reads sensor data, calculates the error, updates PID values, and adjusts motor speeds.
-3. motor(): Controls motor direction and speed based on PID output.
-4. calibrate(): Calibrates sensor readings to handle different environmental conditions.
-5. calc_error(): Computes the error value based on sensor input.
-6. updateSensorInput(): Updates sensor readings and calculates average values.
-7. staticPID(): Calculates PID control values to adjust motor speeds.
-8. ZieglerNicholsTuning(): Tunes PID parameters using the Ziegler-Nichols method.
+1. _setup()_: Initializes pins, sets up motor control, calibrates sensors, and performs initial PID tuning.
+2. _loop():_ Continuously reads sensor data, calculates the error, updates PID values, and adjusts motor speeds.
+3._ motor():_ Controls motor direction and speed based on PID output.
+4. _calibrate():_ Calibrates sensor readings to handle different environmental conditions.
+5. _calc_error():_ Computes the error value based on sensor input.
+6. _updateSensorInput():_ Updates sensor readings and calculates average values.
+7. _staticPID():_ Calculates PID control values to adjust motor speeds.
+8. _ZieglerNicholsTuning():_ Tunes PID parameters using the Ziegler-Nichols method.
 
 Ziegler-Nichols Method
 The Ziegler-Nichols method is a technique for tuning PID controllers to improve system performance. 
