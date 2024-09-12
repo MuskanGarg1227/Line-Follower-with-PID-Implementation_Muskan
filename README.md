@@ -31,8 +31,8 @@ Code Explanation:
 Ziegler-Nichols Method
 The Ziegler-Nichols method is a technique for tuning PID controllers to improve system performance. It involves:
 
-Finding Ultimate Gain (Ku): Increase the proportional gain (Kp) until the system starts oscillating continuously.
-Measuring Oscillation Period (Tu): Determine the period of these oscillations.
+Finding Ultimate Gain(Ku): Increase the proportional gain (Kp) until the system starts oscillating continuously.
+Measuring Oscillation Period(Tu): Determine the period of these oscillations.
 Calculating PID Parameters:
 Proportional Gain (Kp): 
 𝐾
