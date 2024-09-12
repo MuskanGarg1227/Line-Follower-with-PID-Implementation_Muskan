@@ -41,7 +41,6 @@ It involves:
 ×
 𝐾
 𝑢
-Kp=0.6×Ku
    2. Integral Gain (Ki):𝐾
 𝑖
 =
@@ -49,11 +48,9 @@ Kp=0.6×Ku
 ×
 𝐾
 𝑝
-𝑇
+/𝑇
 𝑢
-Ki= 
-Tu
-2×Kp
+
    3.  Derivative Gain (Kd):𝐾
 d
 =
@@ -62,10 +59,8 @@ d
 ×
 𝑇
 𝑢
-8
-Kd= 
-8
-Kp×Tu
+/8
+
 
 
 
