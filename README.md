@@ -10,10 +10,10 @@ Features:
 4. Modular Code: Organized into separate functions for motor control, sensor calibration, PID calculation, and error handling.
 
 Components:
-1. Arduino Board (e.g., Arduino Uno)
-2. Motor Driver (e.g., L298N)
+1. Arduino Board 
+2. Motor Driver 
 3. DC Motors
-4. Line Sensors (e.g., Infrared sensors)
+4. Line Sensors 
 5. Various resistors and capacitors (depending on sensor and motor driver specifications)
 
 Circuit Diagram:
@@ -34,14 +34,14 @@ It involves:
 1. Finding Ultimate Gain (Ku): Increase the proportional gain (Kp) until the system starts oscillating continuously.
 2. Measuring Oscillation Period (Tu): Determine the period of these oscillations.
 3. Calculating PID Parameters:
-   1. Proportional Gain (Kp): 𝐾
+   1. Proportional Gain (Kp):  𝐾
 𝑝
 =
 0.6
 ×
 𝐾
 𝑢
-   2. Integral Gain (Ki):𝐾
+   2. Integral Gain (Ki):  𝐾
 𝑖
 =
 2
@@ -51,7 +51,7 @@ It involves:
 /𝑇
 𝑢
 
-   3.  Derivative Gain (Kd):𝐾
+   3.  Derivative Gain (Kd):  𝐾
 d
 =
 𝐾
